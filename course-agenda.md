@@ -36,7 +36,3 @@
 | 16 | Oct 9 | Conclusions | Oct 14 | Report Submission  | Final Project report — due 1 week after the Openhouse; students' chance to close any CLO gaps left from the Openhouse |
 | 17 | Oct 16 |  | — |  |  |
 
-**Sources for Thai public holidays 2026:**
-- [timeanddate.com — Thailand 2026](https://www.timeanddate.com/holidays/thailand/2026)
-- [Office Holidays — Asahna Bucha Day 2026](https://www.officeholidays.com/holidays/thailand/asahna-bucha-day)
-- [Office Holidays — Buddhist Lent 2026](https://www.officeholidays.com/holidays/thailand/buddhist-lent)
