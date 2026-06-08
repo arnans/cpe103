@@ -44,6 +44,8 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 - **One master rubric per CLO.** The same rubric is reused across every activity that assesses that CLO, so expectations stay consistent and students improve against a fixed standard.
 - **Each criterion is scored 0–4** on the shared scale above. A CLO's score is the **average of its criteria** (equal weight). Per-criterion scores double as feedback — they show students *where* they are strong or weak, not just an overall number.
 - **Anchored to the CLO.** For every criterion, **Level 3 means the student does exactly what the CLO states** (the target). **Level 4** means they meet Level 3 *and* go beyond in at least one way (the cell gives an example). Levels 2 and 1 are *approaching* and *below*; Level 0 is no evidence.
+- **When a CLO counts as "Mastery" vs "Exemplary" (the grade-bearing distinction).** Because letter grades turn on this, fix **one** rule and apply it to everyone: a CLO is **Mastery** when *every* criterion is at Level 3 or above, and **Exemplary** only when it *also* has **at least half of its criteria at Level 4**. A single Level-4 cell out of three does **not** make the whole CLO Exemplary. (The criterion average still drives the within-band % score; this rule decides which *band* — and therefore which letter — the CLO lands in. Tune the "half" fraction to the distribution you want, but state it once and apply it uniformly.)
+- **Earning Exemplary — students claim it.** Level 4 is not something the instructor hunts for across 90 students. To be scored Exemplary on a criterion, **the student points to the specific evidence** — the test file, the slide, the commit, the journey-map detail — that shows they went beyond Mastery. *No claim, no Level 4.* This keeps grading defensible (you verify a claim rather than detect excellence cold), reduces detection workload, and channels students' strong motivation into producing visible evidence instead of disputing scores. Claims are due **with** the deliverable (a short "where I exceeded" note or Canvas comment).
 - **Team CLOs (CLO3, CLO5) are scored twice:** at the **team** level (the shared product/process) and at the **individual** level (each student's own contribution). Each criterion below is tagged *(team)* or *(individual)*; a student's CLO score combines both.
 - **CLO4 is the reusable presentation rubric** applied across all five verbal activities. For purely **written** deliverables, apply the *Technical accuracy* and *Clarity & organization* criteria and omit *Oral delivery*.
 
@@ -53,13 +55,13 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 **Outcome:** Write, test, and debug basic programs using fundamental constructs including variables, control flow, functions, and algorithms.
 
-**Assessed via:** programming labs and coding quizzes.
+**Assessed via:** programming labs and coding quizzes. Students **submit their own test cases alongside the program**, so testing and debugging are visible and gradeable (and the *Testing & debugging* Level 4 has evidence to claim).
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
 | **Correctness** | Nothing to assess | Program does not run, or fails most required cases | Runs but fails several required cases | Produces correct results for all required cases | Also handles edge cases or unexpected input gracefully |
 | **Use of constructs** | Nothing to assess | Misuses or avoids core constructs | Uses constructs but with errors or needless redundancy | Selects and uses appropriate constructs (variables, control flow, functions, algorithms) correctly | Also uses them efficiently, or applies a more advanced construct (e.g. recursion) where it fits |
-| **Testing & debugging** | Nothing to assess | Does not test; cannot locate errors even with help | Tests informally; fixes errors with guidance | Tests against the required cases and independently locates and fixes errors | Also tests proactively — anticipates failure cases before they occur |
+| **Testing & debugging** | Nothing to assess | Submits no tests; cannot locate errors even with help | Submits a few tests informally; fixes errors with guidance | Submits tests covering the required cases and independently locates and fixes errors | Also submits tests for edge or failure cases beyond those required, anticipating problems before they occur |
 
 ---
 
@@ -86,8 +88,8 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
 | **Individual responsibility** *(individual)* | No evidence | Little or no contribution; misses commitments | Inconsistent; needs reminders to deliver | Reliably completes own assigned share on time | Also takes on extra work or supports teammates beyond own tasks |
-| **Collaboration & communication** *(individual)* | No evidence | Disengaged or disruptive | Communicates sporadically; limited cooperation | Communicates and cooperates respectfully, contributing to shared goals | Also lifts the team — builds consensus or constructively resolves conflict |
-| **Planning & task management** *(team)* | No evidence | No planning; work is uncoordinated | Plans loosely; tasks tracked unevenly | Plans the work and tracks tasks to stay on schedule | Also adapts the plan proactively when problems arise |
+| **Collaboration & communication** *(individual)* | No evidence | Disengaged or disruptive | Communicates sporadically; limited cooperation | Communicates and cooperates respectfully, contributing to shared goals | Also actively improves how the team works — proposes or improves a team process, unblocks a teammate, or synthesizes others' ideas into a shared decision |
+| **Planning & task management** *(team)* | No evidence | No planning; work is uncoordinated | Plans loosely; tasks tracked unevenly | Plans the work and tracks tasks to stay on schedule | Also strengthens the plan up front — builds in checkpoints or contingencies, or rebalances workload before problems force it |
 | **Delivery** *(team)* | No evidence | Fails to deliver | Delivers late or incomplete | Delivers the complete assignment or project as required | Also delivers early, or exceeds the required scope or quality |
 
 ---
@@ -100,7 +102,7 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
-| **Technical accuracy** | No evidence | Frequent errors or misconceptions | Some inaccuracies | Concepts are presented accurately and correctly | Also adds depth or insight, or fields tough questions correctly |
+| **Technical accuracy** | No evidence | Frequent errors or misconceptions | Some inaccuracies | Concepts are presented accurately and correctly | Also adds depth or insight beyond the brief, or proactively addresses a likely question, limitation, or trade-off |
 | **Clarity & organization** | No evidence | Disorganized; hard to follow | Some structure; clarity uneven | Clear and well-organized; the audience can follow easily | Also notably concise and compelling, or adapts to the audience |
 | **Oral delivery** | No evidence | Unclear; reads slides; no engagement | Hesitant; limited engagement | Clear, confident, well-paced delivery; answers questions adequately | Also engaging, and handles questions skillfully |
 
@@ -137,4 +139,5 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 - Share each rubric with students **before** the activity — the rubric is also the instruction sheet.
 - Keep the 0–4 scale and the Level-3-anchored wording identical across CLOs so grades are comparable.
 - The reusable CLO4 rubric lets students see their presentation skill improve across all five verbal activities.
+- **Tell students how Exemplary works up front:** it's claimed, not hunted — point to the evidence with the deliverable — and a CLO only counts as Exemplary when at least half its criteria reach Level 4. This sets expectations before the grade-bearing work begins.
 
