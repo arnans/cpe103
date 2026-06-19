@@ -69,8 +69,8 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
-| **User journey analysis & improvement** | Nothing to assess | Journey missing or inaccurate, and no usable recommendation | Captures some of the journey but with gaps, and improvements are generic or weakly grounded in it | Maps a complete, accurate journey (key stages, touchpoints, pain points) **and** recommends improvements justified by it, revising the design through one iteration | Also validates the improvement with real users, or reconciles multiple user segments / journeys in one design |
-| **Process Mapping** | Nothing to assess | Absent or incorrect notation | Partial map; flow unclear | Documents a clear, correct map of the process flow | Also adds decision points, exceptions, or responsibilities |
+| **User journey analysis & improvement** | Nothing to assess | Journey missing or inaccurate, and no usable recommendation | Captures some of the journey but with gaps, and improvements are generic or weakly grounded in it | Maps a complete, accurate journey of the user's experience (key stages, touchpoints, pain points) **and** recommends improvements justified by it, revising the design through one iteration | Also closes the loop — re-tests the revised design and shows, with before/after evidence, that the targeted pain point measurably eased — **or** reconciles multiple user segments / journeys in one design |
+| **Process Mapping** | Nothing to assess | Absent or incorrect notation | Partial map; flow unclear | Documents a clear, correct map of the system's internal process flow — its steps and their sequence, distinct from the user's experience | Also adds decision points, exceptions, or responsibility lanes (interactions between actors/components) |
 
 ---
 
@@ -114,9 +114,9 @@ Exemplary (Level 4) is earned on the **Final Project only**, and it is **claimed
 | CLO · criterion | Beyond Mastery (one path is enough) | Evidence to point to |
 |---|---|---|
 | **CLO1 (a)** — Correctness | Handles edge cases / invalid input, not just the required cases | A test or demo run exercising edge cases (empty, boundary, invalid input). |
-| **CLO1 (b)** — Use of constructs | Applies a new algorithm beyond those taught, correctly | The code, the algorithm named, + one line on how it works. |
-| **CLO2 (a)** — User journey analysis & improvement | Validates the improvement with real users, **or** reconciles multiple user segments / journeys in one design | **Validation:** user-test notes or before/after feedback showing the targeted pain point eased after the redesign. **Multi-segment:** a journey map covering ≥2 user types or paths, plus the design decision that reconciles their conflicting needs. |
-| **CLO2 (b)** — Process Mapping | Adds decision points, exceptions, or responsibility lanes beyond a linear flow | The map, pointing to the branch/exception path or the responsibility lanes. |
+| **CLO1 (b)** — Use of constructs | Applies a new algorithm beyond those taught, correctly | The code, the algorithm named, + description on how it works. |
+| **CLO2 (a)** — User journey analysis & improvement | Demonstrates measurable impact — before/after evidence that the targeted pain point eased — **or** reconciles multiple user segments / journeys in one design | **Impact:** user-test notes or before/after feedback showing the targeted pain point eased after the redesign. **Multi-segment:** a journey map covering ≥2 player types or paths — e.g. difficulty modes or accessibility options serving casual vs. skilled players — plus the design decision that reconciles their conflicting needs. |
+| **CLO2 (b)** — Process Mapping | Adds decision points, exceptions, or responsibility lanes (interactions between actors/components) beyond a linear flow | The map, pointing to the branch/exception path or the actor/component lanes. |
 | **CLO3 (a)** — Individual responsibility & collaboration | Takes on extra work, **or** improves how the team works (unblocks, improves a process, synthesizes ideas) | A commit/PR, chat or meeting log, or peer-eval comment naming what you did and its effect. |
 | **CLO3 (b)** — Planning & delivery | Stronger plan up front (checkpoints, contingencies, rebalancing), **or** early / expanded delivery | The plan artifact showing it, **or** a delivery record. |
 | **CLO4 (a)** — Clarity & organization | Notably concise and compelling, **or** adapts to the audience | The slide or section where you tailored or distilled, + one line on the choice. |
