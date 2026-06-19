@@ -12,7 +12,7 @@
 
 > Each row pairs a **Friday lecture** with the **following Wednesday lab** (lecture comes first). The opening Jun 24 lab is a stand-alone orientation row.
 
-CLO columns show each week's assessment weight **toward that CLO** (every CLO totals 100%), per [grading-methodology.md §3](grading-methodology.md). Practice/formative labs do not feed CLO scores.
+CLO columns show each week's assessment weight **toward that CLO** (every CLO totals 100%); see [grading-methodology.md](grading-methodology.md). Practice/formative labs do not feed CLO scores.
 
 | # | Lecture Date (Fri) | Lecture Topic | Instructor | Lab Date (Wed) | Lab Topic | Instructor | Notes | CLO1 | CLO2 | CLO3 | CLO4 | CLO5 |
 |---|--------------------|---------------|------------|----------------|-----------|------------|-------|:--:|:--:|:--:|:--:|:--:|

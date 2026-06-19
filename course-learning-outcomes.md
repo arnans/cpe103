@@ -58,8 +58,8 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
-| **Correctness** | Nothing to assess | Program does not run, or fails most required cases | Runs but fails several required cases | Produces correct results for all required cases | Also handles edge cases or unexpected input gracefully |
-| **Use of constructs** | Nothing to assess | Misuses or avoids core constructs | Uses constructs but with errors or needless redundancy | Selects and uses appropriate constructs (variables, control flow, functions, algorithms) correctly | Also uses them efficiently, or applies a more advanced construct (e.g. recursion) where it fits |
+| **Correctness** | Nothing to assess | Program does not run, or fails most required cases | Runs but fails one required case | Produces the required behavior in all specified cases | Also handles edge cases and unexpected input gracefully |
+| **Use of constructs** | Nothing to assess | Misuses or avoids core constructs | Uses constructs but with errors or needless redundancy | Selects and uses appropriate constructs (variables, control flow, custom blocks/functions, algorithms) correctly, in readable code | Also applies a new algorithm beyond those taught, correctly, and can explain how it works |
 
 ---
 
@@ -113,9 +113,16 @@ Exemplary (Level 4) is earned on the **Final Project only**, and it is **claimed
 
 | CLO · criterion | Beyond Mastery (one path is enough) | Evidence to point to |
 |---|---|---|
+| **CLO1 (a)** — Correctness | Handles edge cases / invalid input, not just the required cases | A test or demo run exercising edge cases (empty, boundary, invalid input). |
+| **CLO1 (b)** — Use of constructs | Applies a new algorithm beyond those taught, correctly | The code, the algorithm named, + one line on how it works. |
 | **CLO2 (a)** — User journey analysis & improvement | Validates the improvement with real users, **or** reconciles multiple user segments / journeys in one design | **Validation:** user-test notes or before/after feedback showing the targeted pain point eased after the redesign. **Multi-segment:** a journey map covering ≥2 user types or paths, plus the design decision that reconciles their conflicting needs. |
-
-*(Filled in CLO by CLO — remaining criteria to follow.)*
+| **CLO2 (b)** — Process Mapping | Adds decision points, exceptions, or responsibility lanes beyond a linear flow | The map, pointing to the branch/exception path or the responsibility lanes. |
+| **CLO3 (a)** — Individual responsibility & collaboration | Takes on extra work, **or** improves how the team works (unblocks, improves a process, synthesizes ideas) | A commit/PR, chat or meeting log, or peer-eval comment naming what you did and its effect. |
+| **CLO3 (b)** — Planning & delivery | Stronger plan up front (checkpoints, contingencies, rebalancing), **or** early / expanded delivery | The plan artifact showing it, **or** a delivery record. |
+| **CLO4 (a)** — Clarity & organization | Notably concise and compelling, **or** adapts to the audience | The slide or section where you tailored or distilled, + one line on the choice. |
+| **CLO4 (b)** — Oral delivery | Engaging, **and** handles questions skillfully | A recording/timestamp of a Q&A moment handled well. |
+| **CLO5 (a)** — Working product | Robust / polished, **or** beyond the required scope | The extra feature, **or** robustness handling (error states, edge cases) in the demo/repo. |
+| **CLO5 (b)** — Design & integration | Thoughtful / innovative design, **or** clear reflection on trade-offs | A design note, sketch, or decision log showing the choice or the trade-offs weighed. |
 
 ---
 
