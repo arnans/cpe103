@@ -70,7 +70,7 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
 | **User journey analysis & improvement** | Nothing to assess | Journey missing or inaccurate, and no usable recommendation | Captures some of the journey but with gaps, and improvements are generic or weakly grounded in it | Maps a complete, accurate journey of the user's experience (key stages, touchpoints, pain points) **and** recommends improvements justified by it, revising the design through one iteration | Also closes the loop — re-tests the revised design and shows, with before/after evidence, that the targeted pain point measurably eased — **or** reconciles multiple user segments / journeys in one design |
-| **Process Mapping** | Nothing to assess | Absent or incorrect notation | Partial map; flow unclear | Documents a clear, correct map of the system's internal process flow — its steps and their sequence, distinct from the user's experience | Also adds decision points, exceptions, or responsibility lanes (interactions between actors/components) |
+| **Process Mapping** | Nothing to assess | Absent or incorrect notation | Partial map; flow unclear | Documents a clear, correct map of the system's internal process flow — its steps, sequence, and main decision points, distinct from the user's experience | Also models the flow beyond the happy path — exception / error paths, or responsibility lanes separating what each actor/component does |
 
 ---
 
@@ -80,8 +80,8 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
-| **Individual responsibility & collaboration** *(individual)* | No evidence | Little or no contribution; disengaged or misses commitments | Inconsistent; needs reminders, and communicates sporadically | Reliably completes own assigned share on time, **and** communicates and cooperates respectfully toward shared goals | Also takes on extra work, or actively improves how the team works — unblocks a teammate, proposes or improves a process, or synthesizes others' ideas into a shared decision |
-| **Planning & delivery** *(team)* | No evidence | No planning; work uncoordinated; fails to deliver | Plans loosely; tasks tracked unevenly; delivers late or incomplete | Plans and tracks the work to stay on schedule, **and** delivers the complete assignment or project as required | Also strengthens the plan up front (checkpoints, contingencies, workload rebalancing), or delivers early or beyond the required scope or quality |
+| **Individual responsibility & collaboration** *(individual)* | No evidence | Little or no contribution; disengaged or misses commitments | Inconsistent; needs reminders, and communicates sporadically | Reliably completes own assigned share on time (seen in commits/task board), **and** communicates and cooperates respectfully toward shared goals | Also measurably improves how the team works — unblocks a teammate, fixes a recurring process problem, or synthesizes others' ideas into a shared decision |
+| **Planning & delivery** *(team)* | No evidence | No planning; work uncoordinated; fails to deliver | Plans loosely; tasks tracked unevenly; delivers late or incomplete | Plans and tracks the work (e.g. a task board) to stay on schedule, **and** delivers the complete assignment or project as required | Also builds resilience into the plan up front — checkpoints, contingencies, or workload rebalancing that the team can point to as having kept delivery on track |
 
 ---
 
@@ -91,8 +91,8 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
-| **Clarity & organization** | No evidence | Disorganized; hard to follow | Some structure; clarity uneven | Clear and well-organized; the audience can follow easily | Also notably concise and compelling, or adapts to the audience |
-| **Oral delivery** | No evidence | Unclear; reads slides; no engagement | Hesitant; limited engagement | Clear, confident, well-paced delivery; answers questions adequately | Also engaging, and handles questions skillfully |
+| **Clarity & organization** | No evidence | Disorganized; hard to follow | Some structure; clarity uneven | Clear and well-organized; the audience can follow easily | Also distills a complex point into a notably concise form, or visibly tailors content to the specific audience |
+| **Oral delivery** | No evidence | Unclear; reads slides; no engagement | Hesitant; limited engagement | Clear, confident, well-paced delivery; answers questions adequately | Also fields an unanticipated or challenging question with a correct, on-point answer |
 
 ---
 
@@ -102,8 +102,8 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
-| **Working product** *(team)* | Nothing to assess | Largely non-functional | Partially works; misses core requirements | Application works and meets its core requirements | Also robust or polished, or exceeds the required scope |
-| **Design & integration** *(team)* | Nothing to assess | Components disconnected; no evident design | Loosely integrated; design weakly informed by analysis | A coherent product, designed from the analysis and built with sound programming, taken from concept to a working build | Also shows thoughtful or innovative design, or clear reflection on trade-offs |
+| **Working product** *(team)* | Nothing to assess | Largely non-functional | Partially works; misses core requirements | Application works and meets its core requirements | Also delivers working functionality beyond the agreed core requirements |
+| **Design & integration** *(team)* | Nothing to assess | Components disconnected; no evident design | Loosely integrated; design weakly informed by analysis | A coherent product, designed from the analysis and built with sound programming, taken from concept to a working build | Also documents a significant design decision and the trade-offs weighed in making it |
 
 ---
 
@@ -116,13 +116,13 @@ Exemplary (Level 4) is earned on the **Final Project only**, and it is **claimed
 | **CLO1 (a)** — Correctness | Handles edge cases / invalid input, not just the required cases | A test or demo run exercising edge cases (empty, boundary, invalid input). |
 | **CLO1 (b)** — Use of constructs | Applies a new algorithm beyond those taught, correctly | The code, the algorithm named, + description on how it works. |
 | **CLO2 (a)** — User journey analysis & improvement | Demonstrates measurable impact — before/after evidence that the targeted pain point eased — **or** reconciles multiple user segments / journeys in one design | **Impact:** user-test notes or before/after feedback showing the targeted pain point eased after the redesign. **Multi-segment:** a journey map covering ≥2 player types or paths — e.g. difficulty modes or accessibility options serving casual vs. skilled players — plus the design decision that reconciles their conflicting needs. |
-| **CLO2 (b)** — Process Mapping | Adds decision points, exceptions, or responsibility lanes (interactions between actors/components) beyond a linear flow | The map, pointing to the branch/exception path or the actor/component lanes. |
-| **CLO3 (a)** — Individual responsibility & collaboration | Takes on extra work, **or** improves how the team works (unblocks, improves a process, synthesizes ideas) | A commit/PR, chat or meeting log, or peer-eval comment naming what you did and its effect. |
-| **CLO3 (b)** — Planning & delivery | Stronger plan up front (checkpoints, contingencies, rebalancing), **or** early / expanded delivery | The plan artifact showing it, **or** a delivery record. |
-| **CLO4 (a)** — Clarity & organization | Notably concise and compelling, **or** adapts to the audience | The slide or section where you tailored or distilled, + one line on the choice. |
-| **CLO4 (b)** — Oral delivery | Engaging, **and** handles questions skillfully | A recording/timestamp of a Q&A moment handled well. |
-| **CLO5 (a)** — Working product | Robust / polished, **or** beyond the required scope | The extra feature, **or** robustness handling (error states, edge cases) in the demo/repo. |
-| **CLO5 (b)** — Design & integration | Thoughtful / innovative design, **or** clear reflection on trade-offs | A design note, sketch, or decision log showing the choice or the trade-offs weighed. |
+| **CLO2 (b)** — Process Mapping | Models the flow beyond the happy path — exception / error paths, **or** responsibility lanes separating what each actor/component does | The map, pointing to the exception/error path or the actor/component lanes. |
+| **CLO3 (a)** — Individual responsibility & collaboration | Measurably improved how the team works — unblocked a teammate, fixed a recurring process problem, or synthesized ideas into a shared decision | A commit/PR, chat or meeting log, or peer-eval comment naming what you did and the effect it had. |
+| **CLO3 (b)** — Planning & delivery | Built resilience into the plan up front — checkpoints, contingencies, or workload rebalancing | The plan artifact showing it, plus a note on how it kept delivery on track. |
+| **CLO4 (a)** — Clarity & organization | Distilled a complex point into a notably concise form, **or** visibly tailored content to the audience | The slide or section where you distilled or tailored, + one line on the choice. |
+| **CLO4 (b)** — Oral delivery | Fielded an unanticipated or challenging question with a correct, on-point answer | A recording/timestamp of the Q&A moment. |
+| **CLO5 (a)** — Working product | Delivered working functionality beyond the agreed core requirements | The extra feature working in the demo/repo, named against the agreed core scope. |
+| **CLO5 (b)** — Design & integration | Documented a significant design decision and the trade-offs weighed in making it | A design note or decision log naming the options, the choice, and why. |
 
 ---
 
