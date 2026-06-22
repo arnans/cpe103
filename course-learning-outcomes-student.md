@@ -1,31 +1,6 @@
-# Basic Computer Engineering — Course Learning Outcomes (CLOs) & Rubrics
+# Basic Computer Engineering — What You're Graded On
 
-## How these outcomes were designed
-
-Each outcome follows established good practice for learning-outcome design:
-
-- **One coherent skill per outcome.** Each CLO names a demonstrable behavior — or a coherent cluster of closely related actions (e.g. *apply analysis **and** recommend improvements*) — so it can be taught and assessed cleanly. What it avoids is bundling *unrelated* ideas (e.g. "show skills *and* show understanding").
-- **Measurable action verbs (Bloom's taxonomy).** Vague verbs like *show*, *understand*, or *know* are replaced with verbs that name observable performance — *write, apply, analyze, collaborate, communicate, design, integrate*.
-- **Condition + criterion where useful.** Outcomes name the context ("using fundamental constructs," "for a defined problem") so the standard of performance is clear.
-- **Constructive alignment.** Each CLO maps to how it will be taught and assessed, and the rubric levels make "good" concrete and gradeable.
-- **Appropriate cognitive level.** As an introductory ("Basic") course, outcomes target *Apply / Analyze* with a capstone reaching *Create* — a sensible progression.
-- **A consistent 5-level performance scale (0–4)** is used across every rubric:
-
-| Level | Label | Meaning |
-|-------|-------|---------|
-| 0 | **No Evidence** | Nothing submitted or demonstrated to assess |
-| 1 | **Below Mastery** | Below expectations; needs substantial support |
-| 2 | **Near Mastery** | Approaching expectations; works with guidance |
-| 3 | **Mastery** | Performs exactly as the CLO states — the target standard for the course |
-| 4 | **Exemplary** | Meets Mastery and goes beyond the CLO in at least one way |
-
-> **Level 3 (Mastery) is the pass/target standard** — the student does exactly what the CLO describes. **Level 4 (Exemplary)** is reserved for work that meets Mastery *and* demonstrates at least one thing beyond what the CLO states.
-
----
-
-## The Course Learning Outcomes
-
-> *On successful completion of Basic Computer Engineering, students will be able to:*
+*On successful completion, you will be able to:*
 
 | # | Course Learning Outcome |
 |---|-------------------------|
@@ -35,20 +10,24 @@ Each outcome follows established good practice for learning-outcome design:
 | **CLO4** | **Communicate** engineering concepts clearly in **written** form and in **oral** presentation. |
 | **CLO5** | **Integrate** programming, system analysis, teamwork, and communication into a **single coherent** software application, taking it from initial concept to a working product. |
 
-Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
-
 ---
 
-## How the rubrics work
+## How you're scored
 
-- **One master rubric per CLO.** The same rubric is reused across every activity that assesses that CLO, so expectations stay consistent and students improve against a fixed standard.
-- **Each criterion is scored 0–4** on the shared scale above. A CLO's score is the **average of its criteria** (equal weight). Per-criterion scores double as feedback — they show students *where* they are strong or weak, not just an overall number.
-- **Scoring a compound criterion.** Some criteria bundle two closely related behaviors joined by *and* (e.g. *completes own share on time* **and** *communicates respectfully*). When the two halves perform at different levels, **score to the weaker half** unless the level cell says otherwise — the target is met only when both are met.
-- **Anchored to the CLO.** For every criterion, **Level 3 means the student does exactly what the CLO states** (the target). **Level 4** means they meet Level 3 *and* go beyond in at least one way (the cell gives an example). Levels 2 and 1 are *approaching* and *below*; Level 0 is no evidence.
-- **How levels become grades.** Each level carries a value (4 / 3 / 2.5 / 2 / 0) that converts to a percentage by `% = 25 × value`; a CLO's percentage is the average of its criteria, and the final grade is the equal-weight average of the five CLO percentages. The full method, grade bands, and the CLO ← assessment weighting are in **[grading-methodology.md](grading-methodology.md)**. In short: **Mastery on every CLO earns a B; Exemplary work is what lifts the grade to B+ and A** (Exemplary is available on the Final Project for every CLO, and — for CLO4 — only in Lab 7, the self-selected-topic presentation; every other assessment caps at Mastery).
-- **Earning Exemplary — students claim it.** **Exemplary (Level 4) is available on the Final Project for every CLO, and — for CLO4 — only in Lab 7 (the self-selected-topic presentation)** — every other assessment is capped at Mastery (see [grading-methodology.md](grading-methodology.md)). On the project, Level 4 is not something the instructor hunts for across 90 students. To be scored Exemplary on a criterion, **the student points to the specific evidence** — the test file, the slide, the commit, the journey-map detail — that shows they went beyond Mastery. *No claim, no Level 4.* This keeps grading defensible (you verify a claim rather than detect excellence cold), reduces detection workload, and channels students' strong motivation into producing visible evidence instead of disputing scores. Claims are due **with** the deliverable (a short "where I exceeded" note or Canvas comment).
-- **Team CLOs (CLO3, CLO5) carry team and individual signal.** CLO3 is scored at both the **individual** level (each student's own responsibility and collaboration) and the **team** level (shared planning and delivery). CLO5 is scored at the **team** level (whether the shared product holds together as one coherent whole); each student's individual capstone contribution is captured through CLO3, and the *quality* of its parts — code in CLO1, analysis in CLO2 — is scored there, not re-scored here. Criteria below are tagged *(team)* or *(individual)*.
-- **CLO4 is the reusable presentation rubric** applied across all five verbal activities. For purely **written** deliverables, apply *Clarity & organization* and omit *Oral delivery*. By design, **Exemplary on CLO4 is available only in the oral setting** (Lab 7); purely written deliverables are assessed to Mastery — an intentional scoping choice, not an oversight.
+Every rubric below uses the same 0–4 scale:
+
+| Level | Label | Meaning |
+|-------|-------|---------|
+| 0 | **No Evidence** | Nothing submitted to assess |
+| 1 | **Below Mastery** | Below expectations; needs substantial support |
+| 2 | **Near Mastery** | Approaching expectations; works with guidance |
+| 3 | **Mastery** | Does exactly what the CLO states — **the target** |
+| 4 | **Exemplary** | Meets Mastery **and** goes beyond in at least one way |
+
+- **Mastery (3) is the target.** Meet it on every CLO and you earn a **B**. **Exemplary (4)** is what lifts your grade to **B+** and **A**.
+- **Exemplary is claimed, not hunted.** It's available on the **Final Project** (and, for **CLO4**, in **Lab 7**). To get it, **point to your evidence** with the deliverable — a short "where I exceeded" note. **No claim, no Level 4.**
+- **Compound criteria** (two things joined by *and*) are **scored to the weaker half** — both must be met.
+- Each CLO's score is the **average of its criteria**.
 
 ---
 
@@ -83,11 +62,11 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 | **CLO3.1 Individual responsibility & collaboration** *(individual)* | No evidence | Little or no contribution; disengaged or misses commitments | Inconsistent; needs reminders, and communicates sporadically | Reliably completes own assigned share on time (seen in commits/task board), **and** communicates and cooperates respectfully toward shared goals | Also measurably improves how the team works — unblocks a teammate, fixes a recurring process problem, or synthesizes others' ideas into a shared decision |
 | **CLO3.2 Planning & delivery** *(team)* | No evidence | No planning; work uncoordinated; fails to deliver | Plans loosely; tasks tracked unevenly; delivers late or incomplete | Plans and tracks the work (e.g. a task board) to stay on schedule, **and** delivers the complete assignment or project as required | Also builds resilience into the plan up front — checkpoints, contingencies, or workload rebalancing that the team can point to as having kept delivery on track |
 
-> **How CLO3 is scored across the project.** Your teamwork is assessed at two points — the Lab 9 planning milestone and the Final Project Openhouse. **At Lab 9 you are scored on your plan itself, not held until delivery.** Because CLO3.2 bundles *plan **and** deliver*, only the **planning** half is in scope at Lab 9 — the delivery half is deferred to the Openhouse, so the [score-to-weaker-half rule](#how-the-rubrics-work) is applied only within the planning half here, not used to mark you down for delivery that isn't due yet. The question is whether your plan is credible enough to reach Mastery: clear tasks, real ownership, and a schedule that fits the timeline. A strong plan earns the level *then* — so put your effort into the plan up front. At the **Openhouse**, the same criteria are scored again against what you actually delivered.
+> **Scored at two points:** the **Lab 9** planning milestone (on your **plan itself**) and the Final Project **Openhouse** (on what you **delivered**). At Lab 9 only the planning half counts — a strong plan earns Mastery *then*, so put your effort into the plan up front.
 
 ---
 
-## CLO4 — Communication (Reusable Presentation Rubric)
+## CLO4 — Communication
 
 **Outcome:** Communicate engineering concepts clearly in written form and in oral presentation.
 
@@ -96,22 +75,23 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 | **CLO4.1 Clarity & organization** | No evidence | Disorganized; hard to follow | Some structure; clarity uneven | Clear and well-organized; the audience can follow easily | Also connects the content to the audience to draw them in — a relatable analogy, or a hook from current events or the audience's own context |
 | **CLO4.2 Oral delivery** | No evidence | Unclear; reads slides; no engagement | Hesitant; limited engagement | Clear, confident, well-paced delivery; answers questions adequately | Also handles a challenging or unanticipated question with composure — engaging with it directly rather than deflecting, even if the answer is incomplete |
 
+> For **written** deliverables, only *Clarity & organization* applies. Exemplary on CLO4 is available only in the **oral** setting (Lab 7).
+
 ---
 
 ## CLO5 — Capstone Integration
 
 **Outcome:** Integrate programming, system analysis, teamwork, and communication into a single coherent software application, taking it from initial concept to a working product.
 
-> **What CLO5 scores — and what it doesn't.** CLO5 scores the *integration itself*: whether the separately-built parts cohere into one working product carried from concept to build. The **quality** of those parts is scored where it lives — code in CLO1, analysis in CLO2, teamwork in CLO3, communication in CLO4 — and is **not** re-graded here. This is the only outcome at the *Create* level; what is unique to it is synthesis, not the components.
+> **CLO5 scores the integration itself** — whether your separately-built parts cohere into one working product, from concept to build. The **quality** of the parts is graded in CLO1–CLO4, **not** re-graded here.
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
 | **CLO5.1 Working integrated product** *(team)* | Nothing to assess | Largely non-functional | Parts work in isolation but don't connect; the core end-to-end flow is broken | The parts work **together** end-to-end as one application, meeting the project's core requirements | Also embodies the assigned theme — localized to a relatable setting (e.g. CMU, current news, university events) and clearly expressed in play, not just named |
 | **CLO5.2 Coherence & integration** *(team)* | Nothing to assess | Components disconnected; no evident overall design | Loosely assembled; the pieces fit a single design only partially or inconsistently | A coherent product whose components fit one deliberate design, carried from initial concept through to a working build | Also shows **synergy** — two project areas that shaped each other, with a before-and-after of the change (e.g. a UX finding that reshaped the plan) |
 
-> **Example of a CLO5.2 synergy claim — and how it differs from CLO2.** Mid-project UX testing (CLO2) showed players ignored the tutorial, and the team had two weeks left (CLO3). Instead of building a new tutorial, they **re-planned** — cut a planned bonus level and used that time to make the first real level teach the controls through play. Three areas shaped each other: the UX finding changed the **plan**, and the plan changed the **design**. **The claim is proven with a before-and-after:** the sprint plan *before* — bonus level scheduled — and *after* — bonus level cut, "teach controls in level 1" added. The change in the plan is visible, not just described.
-> - **Not synergy (rejected):** *"we did UX testing **and** made a plan **and** built levels"* — areas listed side by side, no influence shown.
-> - **This is CLO2, not CLO5.2:** *"players ignored the tutorial, so we improved it"* — a fix inside one area. CLO5.2 is that finding **reshaping another area** — here, the plan and the schedule.
+> **Synergy (CLO5.2), with an example.** Mid-project UX testing showed players ignored the tutorial, and the team had two weeks left. They **re-planned** — cut a bonus level and used that time to teach the controls through play in level 1. **Prove it with a before-and-after:** the plan *before* (bonus level scheduled) and *after* (bonus level cut, "teach controls in level 1" added).
+> - *This is CLO2, not CLO5.2:* "players ignored the tutorial, so we fixed it" — a fix **inside** one area. CLO5.2 is one area **reshaping another**.
 
 ---
 
@@ -131,12 +111,3 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 | **CLO4.2** Oral delivery | Clear, confident, paced talk; adequate Q&A. *Point to:* the talk (live / recording). | Also handled a tough / unexpected question with composure. *Point to:* a recording / timestamp of the Q&A. |
 | **CLO5.1** Working integrated product | Parts work together end-to-end, meeting core requirements. *Point to:* a run of the core flow. | Also embodies the assigned theme, shown in play (e.g. CMU). *Point to:* where the theme shows up in the game. |
 | **CLO5.2** Coherence & integration | Parts fit one deliberate design, concept → build. *Point to:* the product + a short design note. | Also **synergy** — two areas reshaped each other. *Point to:* a before-and-after + the two areas named. *(A fix inside one area is CLO2, not this.)* |
-
----
-
-### Rollout tips
-- Share each rubric with students **before** the activity — the rubric is also the instruction sheet.
-- Keep the 0–4 scale and the Level-3-anchored wording identical across CLOs so grades are comparable.
-- The reusable CLO4 rubric lets students see their presentation skill improve across all five verbal activities.
-- **Tell students how Exemplary works up front:** Exemplary is earned on the **Final Project** (and, for **CLO4**, in **Lab 7**), and it's claimed, not hunted — point to the evidence with the deliverable. Meeting all targets earns a B; Exemplary work is what lifts the grade to B+ and A (see [grading-methodology.md](grading-methodology.md)). This sets expectations before the grade-bearing work begins.
-
