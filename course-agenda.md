@@ -28,7 +28,7 @@ CLO columns show each week's assessment weight **toward that CLO** (every CLO to
 | — | — | *Midterm preparation week* | — | — | — | — | Aug 17–23 — no classes | — | — | — | — | — |
 | — | — | *Midterm exams* | — | — | — | — | Aug 24–30 — no classes | — | — | — | — | — |
 | 10 | — | — |  | Sep 2 | Lab 6-Presentation Intro and Practice (Peer-review) | Roger | First class after midterm (lab only). *Practice — no scoring* | — | — | — | — | — |
-| 11 | Sep 4 | Presentation Basics | Chin | Sep 9 | Lab 7-Presentation - self selected topics | All |  | — | — | — | 40% | — |
+| 11 | Sep 4 | Presentation Basics | Chin | Sep 9 | Lab 7-Presentation - self selected topics | All | CLO4 Exemplary earned here; Lab 9 & Openhouse cap at Mastery. | — | — | — | 50% | — |
 | 12 | Sep 11 | Teamwork | Jal | Sep 16 | Lab 8-Final Project Planning (Practice, Peer-review) | Roger | *Practice — no scoring* | — | — | — | — | — |
 | 13 | Sep 18 | Project Planning | Jal | Sep 23 | Lab 9-Final Project Planning | Roger | Teamwork & Planning, presented | — | — | 50% | 40% | — |
 | 14 | Sep 25 | Technical Writing | Chin | Sep 30 | Final Project Preparations | Roger | *Work time — no scoring* | — | — | — | — | — |
