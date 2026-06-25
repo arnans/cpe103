@@ -45,10 +45,10 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 - **Each criterion is scored 0–4** on the shared scale above. A CLO's score is the **average of its criteria** (equal weight). Per-criterion scores double as feedback — they show students *where* they are strong or weak, not just an overall number.
 - **Scoring a compound criterion.** Some criteria bundle two closely related behaviors joined by *and* (e.g. *completes own share on time* **and** *communicates respectfully*). When the two halves perform at different levels, **score to the weaker half** unless the level cell says otherwise — the target is met only when both are met.
 - **Anchored to the CLO.** For every criterion, **Level 3 means the student does exactly what the CLO states** (the target). **Level 4** means they meet Level 3 *and* go beyond in at least one way (the cell gives an example). Levels 2 and 1 are *approaching* and *below*; Level 0 is no evidence.
-- **How levels become grades.** Each level carries a value (4 / 3 / 2.5 / 2 / 0) that converts to a percentage by `% = 25 × value`; a CLO's percentage is the average of its criteria, and the final grade is the equal-weight average of the five CLO percentages. The full method, grade bands, and the CLO ← assessment weighting are in **[grading-methodology.md](grading-methodology.md)**. In short: **Mastery on every CLO earns a B; an Exemplary Final Project is what lifts the grade to B+ and A** (Exemplary is available on the Final Project only — every other assessment caps at Mastery, and the grade ceiling is 90%).
-- **Earning Exemplary — students claim it.** **Exemplary (Level 4) is available on the Final Project only** — every other assessment is capped at Mastery (see [grading-methodology.md](grading-methodology.md)). On the project, Level 4 is not something the instructor hunts for across 90 students. To be scored Exemplary on a criterion, **the student points to the specific evidence** — the test file, the slide, the commit, the journey-map detail — that shows they went beyond Mastery. *No claim, no Level 4.* This keeps grading defensible (you verify a claim rather than detect excellence cold), reduces detection workload, and channels students' strong motivation into producing visible evidence instead of disputing scores. Claims are due **with** the deliverable (a short "where I exceeded" note or Canvas comment).
-- **Team CLOs (CLO3, CLO5) carry team and individual signal.** CLO3 is scored at both the **individual** level (each student's own responsibility and collaboration) and the **team** level (shared planning and delivery). CLO5 is scored at the **team** level (the shared product and its design); each student's individual capstone contribution is captured through CLO3, not re-scored here. Criteria below are tagged *(team)* or *(individual)*.
-- **CLO4 is the reusable presentation rubric** applied across all five verbal activities. For purely **written** deliverables, apply *Clarity & organization* and omit *Oral delivery*.
+- **How levels become grades.** Each level carries a value (4 / 3 / 2.5 / 2 / 0) that converts to a percentage by `% = 25 × value`; a CLO's percentage is the average of its criteria, and the final grade is the equal-weight average of the five CLO percentages. The full method, grade bands, and the CLO ← assessment weighting are in **[grading-methodology.md](grading-methodology.md)**. In short: **Mastery on every CLO earns a B; Exemplary work is what lifts the grade to B+ and A** (Exemplary is available on the Final Project only — **except CLO4, where it is also available on Lab 7 and Lab 9** — every other assessment caps at Mastery, and the grade ceiling is **92.5%**).
+- **Earning Exemplary — students claim it.** **Exemplary (Level 4) is available on the Final Project only — except CLO4, which can also reach Exemplary on Lab 7 and Lab 9** — every other assessment is capped at Mastery (see [grading-methodology.md](grading-methodology.md)). Wherever Level 4 is available, it is not something the instructor hunts for across 90 students. To be scored Exemplary on a criterion, **the student points to the specific evidence** — the test file, the slide, the commit, the journey-map detail — that shows they went beyond Mastery. *No claim, no Level 4.* This keeps grading defensible (you verify a claim rather than detect excellence cold), reduces detection workload, and channels students' strong motivation into producing visible evidence instead of disputing scores. Claims are due **with** the deliverable (a short "where I exceeded" note or Canvas comment).
+- **Team CLOs (CLO3, CLO5) carry team and individual signal.** CLO3 is scored at both the **individual** level (each student's own responsibility and collaboration) and the **team** level (shared planning and delivery). CLO5 is scored at the **team** level (the integration and coherence of the shared product); each student's individual capstone contribution is captured through CLO3, not re-scored here. Criteria below are tagged *(team)* or *(individual)*.
+- **CLO4 is the reusable presentation rubric** applied across all five verbal activities. For purely **written** deliverables, apply *Clarity & organization* and omit *Oral delivery*. **For CLO4 only, Exemplary is available on Lab 7, Lab 9, and the Final Project** (not Final-Project-only) — presentation is measured more reliably in the dedicated presentation labs than in the time-boxed open house.
 
 ---
 
@@ -89,7 +89,7 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 **Outcome:** Communicate engineering concepts clearly in written form and in oral presentation.
 
-| Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
+| Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Lab 7, Lab 9, or Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
 | **Clarity & organization** | No evidence | Disorganized; hard to follow | Some structure; clarity uneven | Clear and well-organized; the audience can follow easily | Also distills a complex point into a notably concise form, or visibly tailors content to the specific audience |
 | **Oral delivery** | No evidence | Unclear; reads slides; no engagement | Hesitant; limited engagement | Clear, confident, well-paced delivery; answers questions adequately | Also fields an unanticipated or challenging question with a correct, on-point answer |
@@ -102,14 +102,13 @@ Each CLO has a single **master rubric**, used everywhere that CLO is assessed.
 
 | Criterion | 0 — No Evidence | 1 — Below Mastery | 2 — Near Mastery | 3 — Mastery | 4 — Exemplary (Final Project) |
 |-----------|-----------------|-------------------|------------------|-------------|----------------|
-| **Working product** *(team)* | Nothing to assess | Largely non-functional | Partially works; misses core requirements | Application works and meets its core requirements | Also delivers working functionality beyond the agreed core requirements |
-| **Design & integration** *(team)* | Nothing to assess | Components disconnected; no evident design | Loosely integrated; design weakly informed by analysis | A coherent product, designed from the analysis and built with sound programming, taken from concept to a working build | Also documents a significant design decision and the trade-offs weighed in making it |
+| **Design & integration** *(team)* | Nothing to assess | Components disconnected; no evident design | Loosely integrated; design weakly informed by analysis | A coherent product whose parts — analysis-informed design, code, and content — integrate into a unified whole, carried from initial concept to completion | Also documents a significant design decision and the trade-offs weighed in making it |
 
 ---
 
 ## Claiming Exemplary on the Final Project
 
-Exemplary (Level 4) is earned on the **Final Project only**, and it is **claimed, not hunted** — the student points to specific evidence with the deliverable (see the claim-rule bullets under [How the rubrics work](#how-the-rubrics-work)). This table records, per criterion, what *beyond Mastery* means and the evidence a student must provide to claim it. **One path is enough.**
+Exemplary (Level 4) is earned on the **Final Project only** (**except CLO4, also on Lab 7 and Lab 9**), and it is **claimed, not hunted** — the student points to specific evidence with the deliverable (see the claim-rule bullets under [How the rubrics work](#how-the-rubrics-work)). This table records, per criterion, what *beyond Mastery* means and the evidence a student must provide to claim it. **One path is enough.**
 
 | CLO · criterion | Beyond Mastery (one path is enough) | Evidence to point to |
 |---|---|---|
@@ -121,8 +120,7 @@ Exemplary (Level 4) is earned on the **Final Project only**, and it is **claimed
 | **CLO3 (b)** — Planning & delivery | Built resilience into the plan up front — checkpoints, contingencies, or workload rebalancing | The plan artifact showing it, plus a note on how it kept delivery on track. |
 | **CLO4 (a)** — Clarity & organization | Distilled a complex point into a notably concise form, **or** visibly tailored content to the audience | The slide or section where you distilled or tailored, + one line on the choice. |
 | **CLO4 (b)** — Oral delivery | Fielded an unanticipated or challenging question with a correct, on-point answer | A recording/timestamp of the Q&A moment. |
-| **CLO5 (a)** — Working product | Delivered working functionality beyond the agreed core requirements | The extra feature working in the demo/repo, named against the agreed core scope. |
-| **CLO5 (b)** — Design & integration | Documented a significant design decision and the trade-offs weighed in making it | A design note or decision log naming the options, the choice, and why. |
+| **CLO5** — Design & integration | Documented a significant design decision and the trade-offs weighed in making it | A design note or decision log naming the options, the choice, and why. |
 
 ---
 
@@ -130,5 +128,5 @@ Exemplary (Level 4) is earned on the **Final Project only**, and it is **claimed
 - Share each rubric with students **before** the activity — the rubric is also the instruction sheet.
 - Keep the 0–4 scale and the Level-3-anchored wording identical across CLOs so grades are comparable.
 - The reusable CLO4 rubric lets students see their presentation skill improve across all five verbal activities.
-- **Tell students how Exemplary works up front:** Exemplary is earned on the **Final Project only**, and it's claimed, not hunted — point to the evidence with the deliverable. Meeting all targets earns a B; an Exemplary Final Project is what lifts the grade to B+ and A, up to a 90% ceiling (see [grading-methodology.md](grading-methodology.md)). This sets expectations before the grade-bearing work begins.
+- **Tell students how Exemplary works up front:** Exemplary is earned on the **Final Project only** (**except CLO4, also on Lab 7 and Lab 9**), and it's claimed, not hunted — point to the evidence with the deliverable. Meeting all targets earns a B; Exemplary work is what lifts the grade to B+ and A, up to a 92.5% ceiling (see [grading-methodology.md](grading-methodology.md)). This sets expectations before the grade-bearing work begins.
 
